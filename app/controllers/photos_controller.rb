@@ -79,7 +79,7 @@ class PhotosController < ApplicationController
     
     #redirect_to("/photos/" + the_photo.id.to_s)
 
-    next_url = "/photos/" + the_photo.id.to_s
+    next_url = "/photos/" + the_photoclass.id.to_s
 
     redirect_to(next_url)
   end
